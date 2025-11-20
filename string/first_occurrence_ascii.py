@@ -1,0 +1,5 @@
+s=input()
+b=int(input())
+ch=chr(b)
+pos=s.find(ch)
+print(pos if pos!=-1 else -1)
